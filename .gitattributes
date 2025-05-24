@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.safetensors filter=lfs diff=lfs merge=lfs -text
+F1lora_xl_model.safetensors filter=lfs diff=lfs merge=lfs -text
